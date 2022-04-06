@@ -34,7 +34,7 @@ RST = 24
 DC = 23
 SPI_PORT = 0
 SPI_DEVICE = 0
-
+scode="0190576914082"
 # Beaglebone Black pin configuration:
 # RST = 'P9_12'
 # Note the following are only used with SPI:
@@ -117,7 +117,7 @@ font = ImageFont.load_default()
 # Write two lines of text.
 draw.text((x, top),    'Hello',  font=font, fill=255)
 draw.text((x, top+20), 'World!', font=font, fill=255)
-
+scode = draw.text((x, top),'SESUAI',  font=font, fill=255)
 # Display image.
 disp.image(image)
 disp.display()
